@@ -1,0 +1,23 @@
+
+(Prof)Hacking the ultimate word processor.
+Alex Jarvis 
+
+A while back, I wrote about persuing something called "Techno-bliss". I had described it as a system where you had a primary goal that you designed your technology around. My own version of Techno-bliss was a workstation that could live on several machines, using the majesty of the cloud and google docs. In the time since, my needs have gotten a litle more specific, and recently I've discovered a homebrewed, mobile, lightweight and (most importantly) free word proccessing system that I find really, really cool. Before I describe it, I should explain why the existing solutions don't cut it for me, and what I want in a "perfect" system.
+
+Up until recently, I've been exclusively using Google Docs as my primary word processor. It fufilled a few of my criteria for the perfect Web Browser: *Instant Saving, Cloud Storage, and Exportability* . When introducing google docs to a new student or faculty member, I always show it off by explaining that "the computer [they are using] could explode, or melt underneath their hands - and their data would be saved up until the last few seconds." And, in the event that their file needed to be a specific format, Docs has you covered there as well. Any system I used would have to be accessible from multiple computers, just like before. 
+
+One big problem with Docs? It is very distracting. Editing in-browser is a great idea, until your notification extentions alert you to the presence of a new email, or Facebook refreshes with an update, or you remember that Reddit exists. A truly productive word processor shouldn't necessarily live in the most distracting thing my computer has to offer! 
+
+Google docs also lacks any kind of offline capabilities. The ability to edit a document offline (despite how rarely I am put in such a position) is a major function that I do not find in the Google Docs editing suite. This might be me trying to have my cake and eat it too (after all, what good is the cloud if you have it offline?) but there are significant advantages to *also* having a local copy of a file when you need it. 
+
+If only there was some service that synced local files to an online cloud folder...wait, there is! It's called Dropbox, and I believe we've mentoned it before. 
+
+It would be easy to jump to OpenOffice or Abiword (I'm a Linux Guy, what can I say?), and believe me, I tried. However, I realized the levels of inanity that my pursuit of Techno-bliss would take me. I wanted something lightweight, something that I could - if need be - deploy on any computer I am using, whether or not I owned it. 
+
+I found my solution in a java app called " JDarkRoom." Created by a group called "Codealchemists", it is a cross-platform app  that you can just pop right into your dropbox folder. Rather than opening the app individually on every machine I use, I open up the same instance of the java applet presnent in each dropbox folder.
+
+Dropbox sees any changes I make to the settings of JdarkRoom and updates the other instances. For instance, I have mine set to very small borders, fullscreen, with black backgrund and greed text. At the bottom of the file, there is a line, word, and character count. It saves to .txt and .mkd files (and has some really cool HTML functionality that I have yet to explore), and (the icing on the cake) it even saves every few seconds to a temporary folder in the same directory as the .jdk file. Yup, that's the Dropbox folder, so even those save. 
+
+There is one slight problem with the system, but it is something I am happy to work around. Because the files save to .txt, there is no richer formatting. I like this - it foucses on the words rather than the way they look. It does require some cretive editing if you plan on adding hyperlinks or more formating later on, but its a small price to play for attaining techno-bliss. 
+
+This is my solution to a few of my personal annoyances. Have you invented or come across any creative solutions to tech problems?  Let us know in the comments! 
